@@ -1,6 +1,6 @@
 cask "ref" do
-  version "0.3.0"
-  sha256 "d83203bd45603fb6f144993897bcf55481f93d3ab1285d094ccd334b758d8eed"
+  version "0.3.2"
+  sha256 "4690426aa6c00bbbb84ffa4e458695ca838c5b8257cd07f0902e99a36a140acd"
 
   url "https://github.com/ddhjy/ref-releases/releases/download/v#{version}/Ref-#{version}.dmg"
   name "Ref"
@@ -12,7 +12,7 @@ cask "ref" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Ref.app"
 
