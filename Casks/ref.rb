@@ -1,6 +1,6 @@
 cask "ref" do
-  version "0.3.25"
-  sha256 "b61f5405e0869a97af4941ac036fc4840311ab8debfba6a158d1ca0bcdc47edd"
+  version "0.3.27"
+  sha256 "4da7d28a7946fe7d4f45bc58ff39cf2d27c070b55cf44fcd3f37d4df5f36fecd"
 
   url "https://github.com/ddhjy/ref-releases/releases/download/v#{version}/Ref-#{version}.dmg"
   name "Ref"
