@@ -1,6 +1,6 @@
 cask "skills-manager" do
-  version "0.1.0"
-  sha256 "48e82692a5cb2b1f8c80ff83132edd8b0179400c993ff2a2e1a19c47a9cca6a4"
+  version "0.1.1"
+  sha256 "de7b45d9cdc58fbace56240ae1efd31889998b523675e8bd1edd07ad3303b811"
 
   url "https://github.com/ddhjy/skills-manager-releases/releases/download/v#{version}/SkillsManager-#{version}.dmg"
   name "Skills Manager"
